@@ -17,7 +17,7 @@ h2, .h2 {
 }
 
 img {
-  max-width: 100%;
+  max-width: 60%;
 }
 
 blockquote {
@@ -76,6 +76,8 @@ sup, .sup {
 
 .circle {
   border-radius: 500px;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 header.p-section {
