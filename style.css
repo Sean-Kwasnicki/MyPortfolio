@@ -1,4 +1,43 @@
+
 @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap');
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.navbar, .card-footer, .p-section, .p-section-lg, footer {
+  background-color: black;
+  color: white;
+}
+
+.navbar-brand, .navbar-nav .nav-link, .btn-primary {
+  color: white !important;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #0b6efd !important;
+}
+
+.btn-primary {
+  background-color:#0b6efd;
+  border: 2px solid #0b6efd;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.mb-3 {
+  background-color: black;
+}
+
+.card-body {
+  background-color: black;
+}
+
+.btn-primary:hover {
+  background-color: #0b6efd;
+  color: white;
+}
 
 h1, .h1,
 h2, .h2,
@@ -56,11 +95,6 @@ sup, .sup {
 
 .section-inverse > div {
   margin-top: -180px;
-}
-
-.card-footer {
-  background-color: white;
-  padding: 1rem 1rem;
 }
 
 .background-image {
@@ -136,17 +170,24 @@ header.p-section {
 .marker-highlight {
   position: relative;
   display: inline-block;
+  color: #fff;
 }
 
 .marker-highlight:before {
   content: "";
-  background-color: #0b6efd87;
+  background-color: rgba(0, 0, 255, 0.5);
   width: 102%;
   height: 0.2em;
   position: absolute;
-  z-index: -2;
-  filter: url(#marker-shape);
   left: -0.05em;
   padding: 0 0.25em;
   bottom: 0.2em;
+}
+
+#contact {
+  background-color: rgb(60, 60, 60);
+}
+
+.collapse {
+  color: white;
 }
