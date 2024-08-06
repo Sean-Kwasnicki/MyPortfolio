@@ -21,7 +21,6 @@ body {
 
 .btn-primary {
   background-color:#0b6efd;
-  border: 2px solid #0b6efd;
   color: white;
   transition: all 0.3s ease;
 }
@@ -175,7 +174,7 @@ header.p-section {
 
 .marker-highlight:before {
   content: "";
-  background-color: rgba(0, 0, 255, 0.5);
+  background-color: rgba(49, 49, 251, 0.5);
   width: 102%;
   height: 0.2em;
   position: absolute;
@@ -190,4 +189,10 @@ header.p-section {
 
 .collapse {
   color: white;
+}
+
+.btn-sm {
+  background-color: #0b6efd;
+  color: white;
+  border: #0b6efd;
 }
